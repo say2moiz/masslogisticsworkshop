@@ -1,0 +1,9 @@
+1) Display the UserName at any appropriate place in the system(Should show on all pages using session set at login page).
+2) Update delete user.
+3) User login logout log maintain.
+4) Password recovery via email.
+5) update delete from all tables(set dateupdated column for all).
+6) Do some thing for brand and part logic make it right. (or delete brand).
+7) Apply Access level logic.
+8) Maintian stockinfo table on any update made in stock.
+9) Maintain partinfo table on any change made in part.

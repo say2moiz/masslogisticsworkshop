@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="17942cc6-9a2c-4818-88d8-5a26f90b6006" name="Default" comment="" />
+    <ignored path="MassLogisticsWorkshop.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MassLogisticsWorkshop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Graph.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/Graph.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="9" selection-start="225" selection-end="1147" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="13923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="issuepage.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/issuepage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="412" column="61" selection-start="18241" selection-end="18241" vertical-scroll-proportion="0.0" vertical-offset="6508" max-vertical-offset="8789">
+              <folding>
+                <marker date="1413489286899" expanded="true" signature="1016:1035" placeholder="select * fro..issue..." />
+                <marker date="1413489286899" expanded="true" signature="2308:2343" placeholder="select idBra..brand..." />
+                <marker date="1413489286899" expanded="true" signature="3841:3862" placeholder="select * fro..vehical..." />
+                <marker date="1413489286899" expanded="true" signature="9405:9491" placeholder="update junct..." />
+                <marker date="1413489286899" expanded="true" signature="9902:10036" placeholder="select * fro..stock..." />
+                <marker date="1413489286899" expanded="true" signature="10241:10469" placeholder="update stock..." />
+                <marker date="1413489286899" expanded="true" signature="10559:10953" placeholder="select b.bra..stock..." />
+                <marker date="1413489286899" expanded="true" signature="11179:11507" placeholder="insert into ..." />
+                <marker date="1413489286899" expanded="true" signature="12023:12073" placeholder="select * fro..stock..." />
+                <marker date="1413489286899" expanded="true" signature="12239:12373" placeholder="select * fro..stock..." />
+                <marker date="1413489286899" expanded="true" signature="12558:12811" placeholder="update stock..." />
+                <marker date="1413489286899" expanded="true" signature="12887:13281" placeholder="select b.bra..stock..." />
+                <marker date="1413489286899" expanded="true" signature="13507:13827" placeholder="insert into ..." />
+                <marker date="1413489286899" expanded="false" signature="14519:14537" placeholder="..." />
+                <marker date="1413489286899" expanded="false" signature="18498:18516" placeholder="..." />
+                <marker date="1413489286899" expanded="false" signature="20600:20618" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="12" selection-start="820" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2771">
+              <folding>
+                <marker date="1439115329525" expanded="true" signature="3960:3978" placeholder="..." />
+                <marker date="1439115329525" expanded="true" signature="5594:5612" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/json/getpartdetails.php" />
+        <option value="$PROJECT_DIR$/json/getpart.php" />
+        <option value="$PROJECT_DIR$/json/getbranddetails.php" />
+        <option value="$PROJECT_DIR$/json/checktrackingidexpiry.php" />
+        <option value="$PROJECT_DIR$/json/addscrapreceiver.php" />
+        <option value="$PROJECT_DIR$/json/addseller.php" />
+        <option value="$PROJECT_DIR$/json/adduser.php" />
+        <option value="$PROJECT_DIR$/json/addvehical.php" />
+        <option value="$PROJECT_DIR$/json/changesecurityplan.php" />
+        <option value="$PROJECT_DIR$/json/changeusername.php" />
+        <option value="$PROJECT_DIR$/json/checkmaxavailablestock.php" />
+        <option value="$PROJECT_DIR$/json/checktrackingid.php" />
+        <option value="$PROJECT_DIR$/json/addbrand.php" />
+        <option value="$PROJECT_DIR$/json/addbuyer.php" />
+        <option value="$PROJECT_DIR$/json/addissuer.php" />
+        <option value="$PROJECT_DIR$/json/addrackinstore.php" />
+        <option value="$PROJECT_DIR$/scrapreport.php" />
+        <option value="$PROJECT_DIR$/addpurchase.php" />
+        <option value="$PROJECT_DIR$/navigationbar.php" />
+        <option value="$PROJECT_DIR$/stocktransactionreport.php" />
+        <option value="$PROJECT_DIR$/json/addpart.php" />
+        <option value="$PROJECT_DIR$/deletebrand.php" />
+        <option value="$PROJECT_DIR$/deletepart.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/viewbrands.php" />
+        <option value="$PROJECT_DIR$/viewparts.php" />
+        <option value="$PROJECT_DIR$/viewbuyers.php" />
+        <option value="$PROJECT_DIR$/addbrand.php" />
+        <option value="$PROJECT_DIR$/addbuyer.php" />
+        <option value="$PROJECT_DIR$/deletebuyer.php" />
+        <option value="$PROJECT_DIR$/viewsellers.php" />
+        <option value="$PROJECT_DIR$/addseller.php" />
+        <option value="$PROJECT_DIR$/deleteseller.php" />
+        <option value="$PROJECT_DIR$/viewissuers.php" />
+        <option value="$PROJECT_DIR$/deleteissuer.php" />
+        <option value="$PROJECT_DIR$/deletereceiver.php" />
+        <option value="$PROJECT_DIR$/addscrapreceiver.php" />
+        <option value="$PROJECT_DIR$/viewreceivers.php" />
+        <option value="$PROJECT_DIR$/addUserAgainstAllPhpPages.php" />
+        <option value="$PROJECT_DIR$/addpart.php" />
+        <option value="$PROJECT_DIR$/deleterack.php" />
+        <option value="$PROJECT_DIR$/viewracks.php" />
+        <option value="$PROJECT_DIR$/addissuer.php" />
+        <option value="$PROJECT_DIR$/deletevehical.php" />
+        <option value="$PROJECT_DIR$/addrackinstore.php" />
+        <option value="$PROJECT_DIR$/addvehical.php" />
+        <option value="$PROJECT_DIR$/viewvehicals.php" />
+        <option value="$PROJECT_DIR$/class/Graph.php" />
+        <option value="$PROJECT_DIR$/../nazir/nazir.php" />
+        <option value="$PROJECT_DIR$/issuepage.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MassLogisticsWorkshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MassLogisticsWorkshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MassLogisticsWorkshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MassLogisticsWorkshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MassLogisticsWorkshop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="recentsLimit" value="5" />
+    <property name="SearchEverywhereHistory" value="S" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="LayoutCode.rearrangeEntriesCSS" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nazir/nazir.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\MassLogisticsWorkshop\json" />
+      <recent name="C:\wamp\www\MassLogisticsWorkshop" />
+      <recent name="C:\wamp\www\MassLogisticsWorkshop\css" />
+      <recent name="C:\wamp\www\MassLogisticsWorkshop\reportdesign" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.stockreport.php">
+    <configuration default="false" name="addpurchase.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/addpurchase.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="stockreport.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/stockreport.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="false" name="purchasereport.php" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" uri="http://localhost:63342/MassLogisticsWorkshop/purchasereport.php">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.purchasereport.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.addpurchase.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHP Script.stockreport.php" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.stockreport.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.addpurchase.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17942cc6-9a2c-4818-88d8-5a26f90b6006" name="Default" comment="" />
+      <created>1401472282904</created>
+      <updated>1401472282904</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13543192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/class/Graph.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/class/Graph.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/json/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/updatepurchase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addseller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/adduser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addvehical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/changesecurityplan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/changeusername.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/checkmaxavailablestock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/checktrackingid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addbrand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addbuyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addissuer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addrackinstore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addscrapreceiver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapreport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="0" selection-start="11774" selection-end="11774" vertical-scroll-proportion="0.0" vertical-offset="4318" max-vertical-offset="8245" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addpurchase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="118" selection-start="10562" selection-end="10562" vertical-scroll-proportion="-2.6923077" vertical-offset="3670" max-vertical-offset="9384" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navigationbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="54" selection-start="2458" selection-end="2458" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1904" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="622" column="9" selection-start="20977" selection-end="21051" vertical-scroll-proportion="0.34867257" vertical-offset="10377" max-vertical-offset="18496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/addpart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="91" selection-start="302" selection-end="330" vertical-scroll-proportion="0.09026549" vertical-offset="85" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletebrand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="44" selection-start="3016" selection-end="3016" vertical-scroll-proportion="0.36481482" vertical-offset="1282" max-vertical-offset="2142" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewparts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="1582" selection-end="1758" vertical-scroll-proportion="-10.461538" vertical-offset="323" max-vertical-offset="1479" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewbrands.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="897" selection-end="897" vertical-scroll-proportion="-0.65384614" vertical-offset="408" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addbrand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="28" selection-start="4474" selection-end="4552" vertical-scroll-proportion="0.307971" vertical-offset="1326" max-vertical-offset="6766" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stocktransactionreport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="248" column="59" selection-start="10560" selection-end="10560" vertical-scroll-proportion="0.39292035" vertical-offset="3994" max-vertical-offset="7582" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/purchasereport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="448" column="70" selection-start="24659" selection-end="24668" vertical-scroll-proportion="0.33206832" vertical-offset="7441" max-vertical-offset="16405" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addseller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="99" selection-start="3687" selection-end="3687" vertical-scroll-proportion="-19.923077" vertical-offset="706" max-vertical-offset="3077" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewsellers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="47" selection-start="2268" selection-end="2268" vertical-scroll-proportion="1.0265486" vertical-offset="372" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteseller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="11" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.18053098" vertical-offset="578" max-vertical-offset="2074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteissuer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="113" selection-start="3734" selection-end="3734" vertical-scroll-proportion="-13.884615" vertical-offset="1390" max-vertical-offset="2125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewissuers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="7" selection-start="0" selection-end="2894" vertical-scroll-proportion="-20.423077" vertical-offset="778" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addUserAgainstAllPhpPages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="118" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.9384058" vertical-offset="519" max-vertical-offset="1139" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewreceivers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="24" selection-start="2552" selection-end="2552" vertical-scroll-proportion="0.9522124" vertical-offset="482" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addscrapreceiver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="17" selection-start="3176" selection-end="3176" vertical-scroll-proportion="0.9384058" vertical-offset="587" max-vertical-offset="2992" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletereceiver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="9" selection-start="4435" selection-end="4435" vertical-scroll-proportion="0.9026549" vertical-offset="1411" max-vertical-offset="2125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addpart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="30" selection-start="6090" selection-end="6090" vertical-scroll-proportion="0.47644928" vertical-offset="1726" max-vertical-offset="9044" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleterack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="72" selection-start="3903" selection-end="3903" vertical-scroll-proportion="-8.653846" vertical-offset="1509" max-vertical-offset="2074" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletepart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="41" selection-start="3841" selection-end="3841" vertical-scroll-proportion="-39.884617" vertical-offset="765" max-vertical-offset="2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewracks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="107" selection-start="1669" selection-end="1669" vertical-scroll-proportion="0.54867256" vertical-offset="285" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletebuyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="28" selection-start="3157" selection-end="3157" vertical-scroll-proportion="2.0159292" vertical-offset="357" max-vertical-offset="2176" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addbuyer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="112" selection-start="771" selection-end="831" vertical-scroll-proportion="-5.8846154" vertical-offset="255" max-vertical-offset="3009" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addrackinstore.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="25" selection-start="4964" selection-end="5296" vertical-scroll-proportion="0.692029" vertical-offset="1369" max-vertical-offset="4250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewbuyers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="26" selection-start="1583" selection-end="1761" vertical-scroll-proportion="-16.346153" vertical-offset="204" max-vertical-offset="1411" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addvehical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="101" selection-start="1083" selection-end="1083" vertical-scroll-proportion="-4.8846154" vertical-offset="417" max-vertical-offset="3978" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/viewvehicals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="99" selection-start="1664" selection-end="1664" vertical-scroll-proportion="0.8495575" vertical-offset="115" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deletevehical.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="116" selection-start="4094" selection-end="4094" vertical-scroll-proportion="0.5185841" vertical-offset="1475" max-vertical-offset="2108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addissuer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="115" selection-start="780" selection-end="841" vertical-scroll-proportion="0.58514494" vertical-offset="85" max-vertical-offset="3009" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/Graph.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="225" selection-end="1147" vertical-scroll-proportion="-0.0" vertical-offset="153" max-vertical-offset="13923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issuepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="412" column="61" selection-start="18241" selection-end="18241" vertical-scroll-proportion="0.0" vertical-offset="6508" max-vertical-offset="8789">
+          <folding>
+            <marker date="1413489286899" expanded="true" signature="1016:1035" placeholder="select * fro..issue..." />
+            <marker date="1413489286899" expanded="true" signature="2308:2343" placeholder="select idBra..brand..." />
+            <marker date="1413489286899" expanded="true" signature="3841:3862" placeholder="select * fro..vehical..." />
+            <marker date="1413489286899" expanded="true" signature="9405:9491" placeholder="update junct..." />
+            <marker date="1413489286899" expanded="true" signature="9902:10036" placeholder="select * fro..stock..." />
+            <marker date="1413489286899" expanded="true" signature="10241:10469" placeholder="update stock..." />
+            <marker date="1413489286899" expanded="true" signature="10559:10953" placeholder="select b.bra..stock..." />
+            <marker date="1413489286899" expanded="true" signature="11179:11507" placeholder="insert into ..." />
+            <marker date="1413489286899" expanded="true" signature="12023:12073" placeholder="select * fro..stock..." />
+            <marker date="1413489286899" expanded="true" signature="12239:12373" placeholder="select * fro..stock..." />
+            <marker date="1413489286899" expanded="true" signature="12558:12811" placeholder="update stock..." />
+            <marker date="1413489286899" expanded="true" signature="12887:13281" placeholder="select b.bra..stock..." />
+            <marker date="1413489286899" expanded="true" signature="13507:13827" placeholder="insert into ..." />
+            <marker date="1413489286899" expanded="false" signature="14519:14537" placeholder="..." />
+            <marker date="1413489286899" expanded="false" signature="18498:18516" placeholder="..." />
+            <marker date="1413489286899" expanded="false" signature="20600:20618" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="161" selection-start="5559" selection-end="5559" vertical-scroll-proportion="1.454698" vertical-offset="17" max-vertical-offset="3366">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="12" selection-start="820" selection-end="1222" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2771">
+          <folding>
+            <marker date="1439115329525" expanded="true" signature="3960:3978" placeholder="..." />
+            <marker date="1439115329525" expanded="true" signature="5594:5612" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

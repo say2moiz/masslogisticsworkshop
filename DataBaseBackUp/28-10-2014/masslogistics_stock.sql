@@ -1,0 +1,78 @@
+CREATE DATABASE  IF NOT EXISTS `masslogistics` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `masslogistics`;
+-- MySQL dump 10.13  Distrib 5.6.13, for Win32 (x86)
+--
+-- Host: 127.0.0.1    Database: masslogistics
+-- ------------------------------------------------------
+-- Server version	5.6.12-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `stock`
+--
+
+DROP TABLE IF EXISTS `stock`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `stock` (
+  `idStock` int(11) NOT NULL AUTO_INCREMENT,
+  `idPurchase` int(11) NOT NULL,
+  `idPart` int(11) NOT NULL,
+  `idBrand` int(11) NOT NULL,
+  `idIssue` int(11) NOT NULL,
+  `idReturn` int(11) NOT NULL,
+  `idVehical` int(11) NOT NULL,
+  `price` double NOT NULL,
+  `dateEnterance` datetime NOT NULL,
+  `remarks` varchar(45) DEFAULT NULL,
+  `issueStatus` varchar(45) DEFAULT NULL,
+  `dateIssued` datetime DEFAULT NULL,
+  `dateReturned` datetime DEFAULT NULL,
+  `returnStatus` varchar(45) DEFAULT NULL,
+  `issuedTo` varchar(45) DEFAULT NULL,
+  `returnedBy` varchar(45) DEFAULT NULL,
+  `issueRemarks` varchar(45) DEFAULT NULL,
+  `returnRemarks` varchar(45) DEFAULT NULL,
+  `trackingId` varchar(45) DEFAULT NULL,
+  `userDateEnterance` datetime NOT NULL,
+  `userIdIssue` int(11) NOT NULL,
+  `userIdReturn` int(11) NOT NULL,
+  `userDateIssue` datetime NOT NULL,
+  `userDateReturn` datetime NOT NULL,
+  PRIMARY KEY (`idStock`),
+  KEY `idPart` (`idPart`),
+  KEY `idPurchase` (`idPurchase`),
+  KEY `idBrand` (`idBrand`)
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `stock`
+--
+
+LOCK TABLES `stock` WRITE;
+/*!40000 ALTER TABLE `stock` DISABLE KEYS */;
+INSERT INTO `stock` (`idStock`, `idPurchase`, `idPart`, `idBrand`, `idIssue`, `idReturn`, `idVehical`, `price`, `dateEnterance`, `remarks`, `issueStatus`, `dateIssued`, `dateReturned`, `returnStatus`, `issuedTo`, `returnedBy`, `issueRemarks`, `returnRemarks`, `trackingId`, `userDateEnterance`, `userIdIssue`, `userIdReturn`, `userDateIssue`, `userDateReturn`) VALUES (8,1,1,1,1,0,1,5000,'2014-10-06 02:28:59','New','1','2014-10-06 02:37:05',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-01 00:00:00','0000-00-00 00:00:00'),(9,1,1,1,1,0,1,5000,'2014-10-06 02:28:59','New','1','2014-10-06 02:37:05',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-01 00:00:00','0000-00-00 00:00:00'),(10,1,1,1,1,0,1,5000,'2014-10-06 02:28:59','New','1','2014-10-06 02:37:05',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-01 00:00:00','0000-00-00 00:00:00'),(11,1,1,1,1,0,1,5000,'2014-10-06 02:28:59','New','1','2014-10-06 02:42:41',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-05 00:00:00','0000-00-00 00:00:00'),(12,1,1,1,1,0,1,5000,'2014-10-06 02:29:00','New','1','2014-10-06 02:42:42',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-05 00:00:00','0000-00-00 00:00:00'),(13,1,1,1,1,0,1,5000,'2014-10-06 02:29:00','New','1','2014-10-06 02:42:42',NULL,NULL,'Kashif',NULL,'Good',NULL,NULL,'2014-10-02 00:00:00',1,0,'2014-10-05 00:00:00','0000-00-00 00:00:00'),(18,2,2,1,1,0,1,1000,'2014-10-06 02:33:00','Checking','1','2014-10-07 04:56:54',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-03 00:00:00',1,0,'2014-10-22 00:00:00','0000-00-00 00:00:00'),(19,2,2,1,1,0,1,1000,'2014-10-06 02:33:00','Checking','1','2014-10-07 04:56:54',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-03 00:00:00',1,0,'2014-10-22 00:00:00','0000-00-00 00:00:00'),(20,2,2,1,1,0,1,1000,'2014-10-06 02:33:00','Checking','1','2014-10-08 06:36:40',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-03 00:00:00',2,0,'2014-10-23 00:00:00','0000-00-00 00:00:00'),(21,3,1,1,1,1,1,5000,'2014-10-06 02:34:19','Test','1','2014-10-06 03:02:25','2014-10-08 04:18:59','1','Kashif','Khalid','Track','Checking','09b','2014-10-04 00:00:00',1,2,'2014-10-05 00:00:00','2014-10-30 00:00:00'),(22,3,1,1,1,3,1,5000,'2014-10-06 02:34:19','Test','1','2014-10-06 15:19:08','2014-10-08 05:16:04','1','sss','Test','sss','Test','sss','2014-10-04 00:00:00',1,2,'2014-10-12 00:00:00','2014-10-16 00:00:00'),(23,4,2,1,1,0,1,1000,'2014-10-06 02:35:36','Testing','1','2014-10-08 06:36:40',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-04 00:00:00',2,0,'2014-10-23 00:00:00','0000-00-00 00:00:00'),(24,4,2,1,0,0,0,1000,'2014-10-06 02:35:36','Testing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2014-10-04 00:00:00',0,0,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(25,4,2,1,0,0,0,1000,'2014-10-06 02:35:36','Testing',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2014-10-04 00:00:00',0,0,'0000-00-00 00:00:00','0000-00-00 00:00:00'),(36,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-06 15:21:22',NULL,NULL,'bbb',NULL,'bbb',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-13 00:00:00','0000-00-00 00:00:00'),(37,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-06 15:21:22',NULL,NULL,'bbb',NULL,'bbb',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-13 00:00:00','0000-00-00 00:00:00'),(38,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-06 15:21:22',NULL,NULL,'bbb',NULL,'bbb',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-13 00:00:00','0000-00-00 00:00:00'),(39,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-07 03:38:46',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-07 00:00:00','0000-00-00 00:00:00'),(40,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-07 03:38:46',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-07 00:00:00','0000-00-00 00:00:00'),(41,5,1,1,1,0,1,5000,'2014-10-06 02:56:23','Testing GOod','1','2014-10-07 03:38:46',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-07 00:00:00','0000-00-00 00:00:00'),(42,6,1,1,1,0,1,5000,'2014-10-06 10:52:45','Good','1','2014-10-07 03:38:46',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-07 00:00:00','0000-00-00 00:00:00'),(43,6,1,1,1,0,1,5000,'2014-10-06 10:52:45','Good','1','2014-10-07 03:38:46',NULL,NULL,'Kashif',NULL,'Checking',NULL,NULL,'2014-10-05 00:00:00',1,0,'2014-10-07 00:00:00','0000-00-00 00:00:00'),(44,7,6,3,1,1,1,2000,'2014-10-06 11:38:04','Test','1','2014-10-06 11:47:55','2014-10-08 05:18:27','1','Kashif','Kashif','Good','Checking','09b0','2014-10-05 00:00:00',1,2,'2014-10-08 00:00:00','2014-10-18 00:00:00'),(45,7,6,3,1,0,1,2000,'2014-10-06 11:38:04','Test','1','2014-10-06 13:31:23',NULL,NULL,'Kashif',NULL,'good',NULL,'09b01','2014-10-05 00:00:00',1,0,'2014-10-12 00:00:00','0000-00-00 00:00:00'),(46,7,6,3,0,0,0,2000,'2014-10-06 11:38:04','Test',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2014-10-05 00:00:00',0,0,'0000-00-00 00:00:00','0000-00-00 00:00:00');
+/*!40000 ALTER TABLE `stock` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2014-10-28  0:22:33

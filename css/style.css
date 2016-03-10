@@ -1,0 +1,193 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+
+
+input:focus {outline-width: 0;}
+/* ========================================== Header Footer Css Start=========================================*/
+.header{height:20px;position:fixed;top:0px; width:100%;background:#3071A9;z-index:10;color: white;padding-top: 5px;font-size:14px;text-align: center;clear: both;font-family: 'Fjalla One', sans-serif;line-height: 16px;letter-spacing:5px;}
+.footer{position:fixed;bottom:0px; left:0px;width:100%;height: 20px;background:#3071A9;color: #fff;padding-top: 5px;font-size:14px;text-align: center;z-index:10;letter-spacing:5px;font-family: 'Fjalla One', sans-serif;line-height: 16px;}
+/* ========================================== Header Footer Css End =========================================*/
+
+
+/* ==========================================  New Navigation Bar Abdul Moiz Start =========================================*/
+#mainNav{width:100%; height:40px; background-color: #94b8ff; margin:0 auto;margin-top: 37px;}
+#mainNav ul {float: right;right: -50%; position: relative;	 padding-top:0; margin:0;}
+#mainNav li{float:right; width:auto;line-height:40px;list-style-type:none; margin:0; margin-right:30px;}
+#mainNav ul li{ position:relative;}
+#mainNav ul li:hover{/*border-bottom:2px solid #8B8B8B;*/  border-bottom:2px solid #000;}
+#mainNav ul li a:hover{ color:#000;}
+#mainNav ul li a.userNameSmallCaps{text-transform: capitalize;}
+#mainNav ul li .userNameSmallCaps .userIcon{display: inline-block;margin-left: 110%; width: 22px;margin-top: 7px;}
+#mainNav li a{text-decoration:none; display:inline-block; color:#fff; font-size:16px; font-family:sans-serif; }
+#mainNav li.active{ border-bottom:2px solid #000 !important;}
+#mainNav li.active a{color:#000;}
+#mainNav ul li.active ul li a{color:#fff;}
+#mainNav ul li ul{display:none; float:left;padding:0; margin:0;border-top:2px solid #000;color:#dedede;}
+#mainNav ul li:hover ul{display:block; float:right; position:absolute; width:200px; left:0}
+#mainNav ul li ul li:hover{border:none;display:block;}
+#mainNav ul li ul li a{color:#fff; font-size:14px; font-weight:normal;float:left; margin-left:10px; width:100%;}
+#mainNav ul li ul li a:hover{color:#000; background-color: #bbb; display:block; width:95%;float:left;margin:0; padding-left:10px;}
+#mainNav ul li ul{float:left;}
+#mainNav ul li ul li{/*background-color:#999999*/ background-color:#94b8ff; width:200px;margin: 0; z-index:100;line-height:30px;}
+#mainNav .alphapluslogo{position:absolute; margin-top:12px; margin-left:45px; color:#289dcc; font-weight:700; font-size:16px;
+    font-family:sans-serif;}
+#mainNav img{position:absolute; margin-top:5px; margin-left:10px;}
+#mainNav .mainNav_logo{display:block; width:100%;}
+#mainNav span.alllinks{float: right;right: 50%; position: relative;}
+/* ==========================================  New Navigation Bar Abdul Moiz End =========================================*/
+
+
+/* ==========================================  HTML Form Abdul Moiz Start =========================================*/
+#containerOuter{float:right;right: 50%;position: relative;display: inline-block;font-size: 16px;font-family: 'Fjalla One', sans-serif;}
+#containerOuter #containerInner{right: -50%;position: relative;}
+#containerOuter #containerInner .form{background: #3071a9;display: block;width: 1000px;min-height: 100px;padding: 2%;                                 margin:1% 0% 1% 0%;color: #373737;}
+#containerOuter #containerInner form#loginform{margin-top: 100px;}
+#containerOuter #containerInner .form .popup{display: block; margin: 10px 0px 10px 10px;border: 1px solid #fff;padding: 15px;color: orange;}
+#containerOuter #containerInner .form .popup input{color: #fff;width: 150px !important;height: 35px !important;margin-top: 20px;background: #3071A9;
+border: 1px solid #fff;font-size: 18px;}
+#containerOuter #containerInner .form .popup input:active{background:#fff;border:1px solid #fff;color: #3071A9;}
+#containerOuter #containerInner .form .popup .no{margin-left: 20px;}
+/*#containerOuter #containerInner .form .formRows{background: #eee;border-radius: 5px;color: #373737;padding: 15px 80px;}*/
+#containerOuter #containerInner .form .formHead{margin-left: 10px;margin-bottom: 15px;color: #fff;font-size: 20px;border-bottom: 1px solid #fff;padding-bottom: 5px;}
+#containerOuter #containerInner .form .formHead span{  display: inline-block;float: right;background: #94b8ff;padding: 3px 20px;font-size: 16px; cursor: pointer;}
+#containerOuter #containerInner .form .row{display:inline-block;color: #fff;width: 310px;}
+#containerOuter #containerInner .form .trackableRow{margin-top: 37px;}
+#containerOuter #containerInner .form .row:nth-child(odd){}
+#containerOuter #containerInner .form .row:nth-child(even){}
+#containerOuter #containerInner .form input[type="button"]{min-width: 100px;min-height: 25px;}
+#containerOuter #containerInner .form input[type="text"],#containerOuter #containerInner .form input[type="password"],
+#containerOuter #containerInner .form input[type="date"]{min-width: 100px;min-height: 28px;margin:1%;font-size: 16px;padding-left: 10px;border: 1px solid #ddd;margin-left: 10px;width: 275px;}
+#containerOuter #containerInner .form select {min-width: 100px;min-height: 34px;font-size: 16px;padding-left: 10px;                                   margin:1%;margin-left: 10px;width: 288px;}
+#containerOuter #containerInner .form .stuNameHead{display:inline-block;padding: 10px;}
+#containerOuter #containerInner .form .stuNameVal{}
+#containerOuter #containerInner .form .formFoot{width: 1000px; padding-top: 2%;display: block;clear: both;}
+#containerOuter #containerInner .form .formFoot input{background: #3071A9;padding: 10px 10px;width:347px;font-size:24px;font-weight: bold; border:1px solid #fff;margin-top: 10px;color: #fff;margin-left: 10px;float: left;}
+#containerOuter #containerInner .form .formFoot span{color: #fff;display: inline-block;margin-left: 10px;}
+#containerOuter #containerInner .form .formFoot input[type="image"]{width: 28px;float: left;}
+#containerOuter #containerInner .form .formFoot input[type="image"]:active{background: none;}
+#containerOuter #containerInner .form .formFoot input:active{background:#fff;border:1px solid #fff;color: #3071A9;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.clearfix { *zoom: 1;}
+.responseMsg{display: block;clear: both;width: 1000px;margin: 0 auto;color: #373737;}
+.responseMsg span{display: inline-block;float: left;margin: 0px 0px 0px 10px;line-height: 25px;width: 90%;}
+.responseMsg img{display: inline-block;float: left;margin: 1px 0px 0px 10px;}
+#loginBackGround{opacity: 1;width: 250px;margin: 0 auto;display: block;}
+#loginBackGroundRotated{opacity: 1;width: 250px;margin: 0 auto;display: block;}
+/* ==========================================  HTML Form Abdul Moiz End =========================================*/
+
+/* ==========================================  Index Page Abdul Moiz Start =========================================*/
+body#indexBody{background: #E3EAF7;font-family: 'Fjalla One', sans-serif;}
+body#indexBody .restrictMsg{display: block; clear: both; width: 775px; margin: 0 auto; color: #ff8080;
+font-size: 36px; font-weight: bold;}
+body#indexBody .restrictImg{display: block;width: 300px; margin: 0 auto; margin-top: 50px;}
+body#indexBody .backHome{display: block; margin-top: 30px;cursor: pointer;}
+.outer {display: table;position: absolute;height: 100%;width: 100%;}
+.middle{display: table-cell;vertical-align: middle;}
+.inner {margin-left: auto;margin-right: auto;}
+#contentMainDiv{width: 850px; height: 600px; display: block; margin: 6% 21.5%;}
+#contentMainDiv .indexRow{display: block;clear: both;float: none;padding:0%;}
+#contentMainDiv .indexRow .tile{display:inline-block;float: left;height: 250px;width: 30%;margin: 0.25%;cursor: pointer;}
+body#transactionBody #contentMainDiv .indexRow .notInUse:hover{cursor: not-allowed;}
+#contentMainDiv .indexRow .tile:nth-child(even){background:#3071A9;border: 1px solid #3071A9;}
+#contentMainDiv .indexRow .tile:nth-child(odd){background: #94b8ff;border: 1px solid #94b8ff;}
+#contentMainDiv .indexRow .tile:nth-child(even):hover{border: 1px solid #94b8ff;opacity: .9;}
+#contentMainDiv .indexRow .tile:nth-child(odd):hover{border: 1px solid #3071A9;opacity: .9;}
+#contentMainDiv .indexRow .tile img{display: block;width: 180px;margin: 5% auto;}
+#contentMainDiv .indexRow .tile span{color: #fff; font-size: 24px;text-transform: capitalize;text-align: center;display:                                   block;margin-top: 15px;}
+/* ==========================================  Index Page Abdul Moiz End =========================================*/
+
+
+/* ==========================================  table Abdul Moiz Start =========================================*/
+.fluidReturnConfirm{font-family: 'Fjalla One', sans-serif;}
+.fluidReturnConfirm table{border: 1px solid gray;border-collapse: collapse;width:85%;margin: 0 auto;clear:both;margin-top:25px;text-align:center;font-size:12px;margin-bottom: 50px;}
+.fluidReturnConfirm table td{border-right:1px solid gray; border-left:1px solid gray;padding-bottom: 5px;padding-top: 5px;}
+.fluidReturnConfirm table th{border: 1px solid #357880;font-size: larger;font-variant: small-caps;background-color:#3071a9;padding: 10px 4px;color: #fff;}
+.fluidReturnConfirm table tr:nth-child(even){}
+.fluidReturnConfirm table tr:hover{background: #94b8ff;}
+.fluidReturnConfirm table input[type="text"]{width:72px; font-size:12px; color:blue;}
+/* ==========================================  table Abdul Moiz End =========================================*/
+
+/* ==========================================  Reports Page Abdul Moiz Start =========================================*/
+body#reportsBody{background: #E3EAF7;font-family: 'Fjalla One', sans-serif;}
+body#reportsBody .outer {display: table;position: absolute;height: 100%;width: 100%;}
+body#reportsBody .middle{display: table-cell;vertical-align: middle;}
+body#reportsBody .inner {margin-left: auto;margin-right: auto;}
+body#reportsBody #contentMainDiv{width: 850px; height: 600px; display: block; margin: 6% 30%;}
+body#reportsBody #contentMainDiv .indexRow{display: block;clear: both;float: none;padding:0%;}
+body#reportsBody #contentMainDiv .indexRow .tile{display:inline-block;float: left;height: 150px;width: 20%;margin: 0.25%;cursor: pointer;}
+body#reportsBody #contentMainDiv .indexRow .notInUse:hover{cursor: not-allowed;}
+body#reportsBody #contentMainDiv .indexRow .tile:nth-child(even){background:#3071A9;border: 1px solid #3071A9;}
+body#reportsBody #contentMainDiv .indexRow .tile:nth-child(odd){background: #94b8ff;border: 1px solid #94b8ff;}
+body#reportsBody #contentMainDiv .indexRow .tile:nth-child(even):hover{border: 1px solid #94b8ff;opacity: .9;}
+body#reportsBody #contentMainDiv .indexRow .tile:nth-child(odd):hover{border: 1px solid #3071A9;opacity: .9;}
+body#reportsBody #contentMainDiv .indexRow .tile img{display: block;width: 75px;margin: 5% auto;}
+body#reportsBody #contentMainDiv .indexRow .tile span{color: #fff; font-size: 20px;text-transform: capitalize;text-align: center;display:                block;margin-top: 15px;}
+/* ==========================================  Reports Page Abdul Moiz End =========================================*/
+
+/* ==========================================  Control Panel Page Abdul Moiz Start =========================================*/
+body#CPBody{background: #E3EAF7;font-family: 'Fjalla One', sans-serif;}
+body#CPBody .outer {display: table;position: absolute;height: 100%;width: 100%;}
+body#CPBody .middle{display: table-cell;vertical-align: middle;}
+body#CPBody .inner {margin-left: auto;margin-right: auto;}
+body#CPBody #contentMainDiv{width: 850px; height: 600px; display: block; margin: 6% 23%;}
+body#CPBody #contentMainDiv .indexRow{display: block;clear: both;float: none;padding:0%;}
+body#CPBody #contentMainDiv .indexRow .tile{display:inline-block;float: left;height: 150px;width: 20%;margin: 0.25%;cursor: pointer;}
+body#CPBody #contentMainDiv .indexRow .notInUse:hover{cursor: not-allowed;}
+body#CPBody #contentMainDiv .indexRow .tile:nth-child(even){background:#3071A9;border: 1px solid #3071A9;}
+body#CPBody #contentMainDiv .indexRow .tile:nth-child(odd){background: #94b8ff;border: 1px solid #94b8ff;}
+body#CPBody #contentMainDiv .indexRow .tile:nth-child(even):hover{border: 1px solid #94b8ff;opacity: .9;}
+body#CPBody #contentMainDiv .indexRow .tile:nth-child(odd):hover{border: 1px solid #3071A9;opacity: .9;}
+body#CPBody #contentMainDiv .indexRow .tile img{display: block;width: 75px;margin: 5% auto;}
+body#CPBody #contentMainDiv .indexRow .tile span{color: #fff; font-size: 20px;text-transform: capitalize;text-align: center;display:                block;margin-top: 15px;}
+/* ========================================== Control Panel Abdul Moiz End =========================================*/
+
+/* ==========================================  Transaction Page Abdul Moiz Start =========================================*/
+body#transactionBody{background: #E3EAF7;font-family: 'Fjalla One', sans-serif;}
+body#transactionBody .outer {display: table;position: absolute;height: 100%;width: 100%;}
+body#transactionBody .middle{display: table-cell;vertical-align: middle;}
+body#transactionBody .inner {margin-left: auto;margin-right: auto;}
+body#transactionBody #contentMainDiv{width: 850px; height: 600px; display: block; margin: 6% 30%;}
+body#transactionBody #contentMainDiv .indexRow{display: block;clear: both;float: none;padding:0%;}
+body#transactionBody #contentMainDiv .indexRow .tile{display:inline-block;float: left;height: 150px;width: 20%;margin: 0.25%;cursor: pointer;}
+body#transactionBody #contentMainDiv .indexRow .notInUse:hover{cursor: not-allowed;}
+body#transactionBody #contentMainDiv .indexRow .tile:nth-child(even){background:#3071A9;border: 1px solid #3071A9;}
+body#transactionBody #contentMainDiv .indexRow .tile:nth-child(odd){background: #94b8ff;border: 1px solid #94b8ff;}
+body#transactionBody #contentMainDiv .indexRow .tile:nth-child(even):hover{border: 1px solid #94b8ff;opacity: .9;}
+body#transactionBody #contentMainDiv .indexRow .tile:nth-child(odd):hover{border: 1px solid #3071A9;opacity: .9;}
+body#transactionBody #contentMainDiv .indexRow .tile img{display: block;width: 75px;margin: 5% auto;}
+body#transactionBody #contentMainDiv .indexRow .tile span{color: #fff; font-size: 20px;text-transform: capitalize;text-align: center;display:                block;margin-top: 15px;}
+/* ==========================================  Transaction Page Abdul Moiz End =========================================*/
+
+/* ==========================================  Report Abdul Moiz start =========================================*/
+#reportContainer{display: block;clear: both;font-family: 'Fjalla One', sans-serif;color: #fff;line-height: 40px;}
+#reportContainer .reportControls{ background: #94b8ff; display: block; float: left; width: 100%;clear: both;display: block;margin-top: 25px;position: fixed;}
+#reportContainer .reportControls .leftPortion{height: 40px;float: left;width: 30%;display: inline-block;}
+#reportContainer .reportControls .leftPortion .reportName{padding:0px 10px;font-weight: bold;border-right: 2px solid #fff;height: 24px;
+    margin: 7px 0px;line-height: 24px;float: left;}
+#reportContainer .reportControls .leftPortion  .Img{display: inline-block;width: 40px;margin: 7px 0px 0px 10px;float: left;
+    border-right: 2px solid #fff;padding:0px 0px; cursor: pointer;}
+#reportContainer .reportControls .rightPortion{display: inline-block; float: right;width: 70%;}
+#reportContainer .reportControls .rightPortion select{float: right;height: 25px;margin-top:7px;width:105px;margin-right: 5px;
+    display: inline-block;}
+#reportContainer .reportControls .rightPortion span{float: left;margin-top: -1px;margin-left: 5px;}
+#reportContainer .reportControls .rightPortion span input{height: 25px;width: 130px;}
+#reportContainer table.reportTable{float: left;display: block;clear: both;width: 98%;margin: 6% 0% 3% 1%;color: #505050;}
+#reportContainer table.reportTable .tableHeadRow{line-height: 35px;border: 0;text-transform: capitalize;}
+#reportContainer table.reportTable .tableDataRow{line-height: 30px;font-size: 14px;}
+#reportContainer table.reportTable .tableDataRow:hover{background: #e6eaff;cursor: pointer;color: black;}
+#reportContainer table.reportTable th{border:1px solid #fff;background: #3071A9; color: #fff;text-align: left;padding-left: 5px;}
+#reportContainer table.reportTable td{border:1px solid #c5c5c5;text-align: left;padding-left: 5px;}
+#reportContainer table.reportTable td.sumOfCol{background: #3071A9; color: #fff;}
+/* ========================================== Report Abdul Moiz end =========================================*/
+
+/* ================================== Manage privacy Table alter Abdul Moiz Start ===========================*/
+.managePrivacy tr.tableDataRow img{display: inline-block;margin-left: 10px;margin-top: 4px;}
+.managePrivacy tr.tableDataRow input[type="button"]{background: #3071A9; padding: 3px 0px; width:55px; font-size: 12px; font-weight: bold; border: 1px solid #fff; margin-top: 10px; color: #fff; margin-left: 10px;}
+.managePrivacy tr.tableDataRow .spanUserName input[type="text"]{height: 25px;padding-left: 5px;font-size: 12px;}
+.managePrivacy tr td.userNameTd{width: 42%;height: 40px;}
+.managePrivacy tr td.userNameTd .viewUserName{height:40px;display: inline-block;}
+.managePrivacy tr td.userNameTd .spanUserName{height:40px;display: inline-block;  }
+.managePrivacy tr td.securityPlanTd{width: 42%;height: 40px;}
+/* ================================== Manage privacy Table alter Abdul Moiz End ===========================*/

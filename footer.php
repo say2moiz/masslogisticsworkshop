@@ -1,0 +1,1 @@
+<div class="footer">WingBiz Soft's Inventory Managment System</div>
