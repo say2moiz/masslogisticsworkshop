@@ -1,5 +1,4 @@
 <?php
-//This is a test comment to check push pull and commit
 function monitorActivity($status)
 {
     if(isset($_SESSION['username']) && isset($_SESSION['userid']))
