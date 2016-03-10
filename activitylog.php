@@ -1,4 +1,5 @@
 <?php
+//Add test comment
 function monitorActivity($status)
 {
     if(isset($_SESSION['username']) && isset($_SESSION['userid']))
